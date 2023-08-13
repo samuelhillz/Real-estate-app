@@ -1,0 +1,73 @@
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.signin button{
+    padding: 15px 11px;
+}
+.login h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.login-ctn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+
+}
+.login-ctn ul{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: disc;
+
+}
+.login-ctn li{
+    font-size: 14px;
+    align-self: flex-start;
+     list-style-type: disc;
+    
+}
+.login-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    /* gap: 5px; */
+    
+}
+.login-info input{
+    margin: 6px;
+    width: 90%;
+    padding: 10px;
+}
+.login-right{
+    text-align: center;
+}
+.login-right button{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+    border: none;
+    border-bottom: 1.4px solid #f9986e ;
+}
+.login-right button:hover{
+   letter-spacing: 1.2px;
+   background-color: #f9986e;
+}
+.login-left p {
+    margin:10px;
+    background-color: #f9986e;
+    position: relative;
+    padding: 5px 5px;
+    right: 10px;
+}

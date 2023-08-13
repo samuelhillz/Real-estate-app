@@ -1,0 +1,128 @@
+
+nav{
+    background-color: rgb(251, 251, 251);
+    height: 90px;
+    border-bottom: 2px solid rgb(172, 170, 170);
+
+}
+.navbar{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+
+}
+.nav-links button{
+    padding: 5px 10px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.adminHover{
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+
+}
+.adminHover:hover{
+    background-color: #FF8551;
+}
+.admin-Hover{
+    transition: 0.3s ease-in-out;
+    padding: 5px 6px;
+    border-radius: 3px;
+
+}
+.admin-Hover:hover{
+    background-color: #FF8551;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.profile{
+    position: relative;
+    top: 2px;
+}
+li{
+    color: black;
+}
+.nav-icon{
+    display: none;
+}
+.sign-in-shift{
+    position: relative;
+    left: 5px;
+}
+@media screen and (max-width:800px){
+    .nav-icon{
+        display: block;
+        padding: 7px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    #mobile{
+        position: absolute;
+        top: 80px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        background-color: rgb(251, 251, 251);
+        width: 50%;
+        height: 85vh;
+        z-index: 1;
+        color: black;
+        transform: translateX(0%);
+        transition: 0.5s ease-in-out;
+        
+    }
+    #hidden{
+        position: absolute;
+        top: -600px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        background-color: rgb(251, 251, 251);
+        width: 50%;
+        height: 85vh;
+        z-index: 1;
+        color: black;
+        transform: translateX(-200%);
+        transition: 0.5s ease-in-out;
+        
+    }
+    .nav-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .nav-links li{
+        align-self: flex-start;
+        padding: 0 20px;
+    }
+   
+
+}

@@ -1,0 +1,12 @@
+.admin-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.admin-link li{
+    background-color: gray;
+    padding: 5px 11px;
+}

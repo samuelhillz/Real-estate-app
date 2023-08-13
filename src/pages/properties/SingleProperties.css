@@ -1,0 +1,161 @@
+.product-details{
+    margin-bottom: 70px;
+}
+.prod-details-logo{
+    padding: 15px 50px;
+    position: relative;
+    top: 5px;
+}
+.prod-details-logo span{
+    margin: 1px;
+}
+.prod-details-logo-title{
+    color: gray;
+}
+.prod-details{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.right-forms{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.right-forms button{
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(72, 68, 68);
+    border: none;
+    font-size: 17px;
+}
+.input-forms{
+    padding: 7px 0;
+    width: 100%;
+}
+.input-forms::placeholder{
+    padding: 0 5px;
+}
+.details-left img{
+    width: 100%;
+    height: 100%;
+}
+.details-right{
+     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.desc{
+    margin-bottom: 30px;
+}
+.fav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    width: 90%;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 11px 22px;
+    text-align: center;
+}
+.fav-icon button{
+    all: unset;
+    border: 1px solid black;
+    padding: 10px 29px;
+    transition: 0.3s ease-in-out;
+    border: 1px solid rgb(99, 98, 98);
+
+}
+.fav-icon button:hover{
+    background-color: rgba(255, 102, 0, 0.832);
+    color: white;
+    letter-spacing: 1.2px;
+}
+.add-to-wishlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.interest{
+    padding: 15px 15px;
+    line-height: 0.9;
+    max-width: 750px;
+    margin: 10px auto;
+     display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(322px, 1fr));
+    /* gap: 10px; */
+    border: 2px solid rgb(214, 214, 214);
+    margin-bottom: 30px;
+    width: 90%;
+}
+.single-features{
+    /* margin-bottom: 40px; */
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    bottom: 10px;
+    
+}
+.single-features h3{
+    margin-bottom: 2px;
+
+}
+.interest-status{
+    position: relative;
+    right: 2px;
+}
+.interest-left span{
+    margin: 10px;
+}
+.interest-left p{
+    padding: 7px 0;
+}
+.interest-right{
+    align-self: center;
+}
+.desc h3{
+    margin-bottom: 10px;
+}
+@media screen and (max-width:1000px){
+    .prod-details-logo{
+        padding: 10px;
+    }
+    .desc{
+        padding: 0 10px;
+    }
+    .single-features{
+    /* padding: 0 10px; */
+}
+}
+@media screen and (max-width:600px){
+    .prod-details{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+    .details-right{
+        padding: 0 10px;
+        width: 80%;
+        
+    }
+    .desc{
+        padding: 0 10px;
+    }
+    .single-features{
+    /* padding: 10px; */
+    }
+
+}

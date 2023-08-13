@@ -1,0 +1,58 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-direction: column;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.register h1{
+    color: rgb(82, 82, 82);
+    margin-top: 30px;
+}
+.register-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.register-info label{
+    margin-top: 10px;
+}
+.register-info input{
+    width: 90%;
+    padding: 9px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+.checkbox input{
+    margin: 5px;
+}
+.register button{
+    padding: 10px 22px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+    transition: 0.3s;
+    border-bottom: 1.4px solid rgb(246, 154, 105);
+}
+.register button:hover{
+    background-color: rgb(246, 154, 105);
+    letter-spacing:1.2px;
+
+}
+.register p{
+    margin-top: 28px;
+}
+.checkbox-item{
+    display: flex;
+    align-items: center;
+}
+.signup-assist{
+    padding: 10px 0;
+}
+
+.register span{
+    padding: 5px 10px;
+    background-color: rgb(246, 154, 105);
+    color: white;
+}

@@ -1,0 +1,159 @@
+.home-container{
+    margin-bottom: 60px;
+}
+.banner{
+    height: 100vh;
+}
+.featurred-proprty-box h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.each-featured{
+    position: relative;
+}
+.featured-property{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
+    gap: 20px;
+    max-width: 850px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.each-featured img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);
+}
+.each-details{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+.view-all{
+    padding: 10px;
+    width: inherit;
+    text-align: center;
+    color: black;
+    
+}
+.view-all:hover{
+    color: red;    
+    
+}
+.agent{
+    margin: 70px 0;
+    background-color: rgb(232, 232, 232);
+     padding: 34px 0;
+    
+}
+.agent-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.5;
+   
+}
+.agent-box h1{
+    max-width: 900px;
+    text-align: center;
+}
+.agent-layout{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.agent-box p{
+    text-align:center;
+}
+.agent-box button{
+    font-size: 17px;
+    padding: 7px 11px;
+    cursor: pointer;
+    width: inherit;
+    transition: all 0.3s;
+}
+.agent-box button:hover{
+    color: white;
+    background-color: gray;
+    border: none;
+    letter-spacing: 1.2px;
+    padding: 8px 12px;
+
+}
+.contact-wrapper{
+    border: 1px solid gray;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 15px;
+}
+.contact-us{
+    max-width: 590px;
+    margin: 0 auto;
+    color: rgb(113, 114, 115);
+    padding: 5px;
+}
+.contact-us h1{
+    text-align: center;
+    font-weight: 400;
+}
+.contact-box{
+     display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.contact-box textarea{
+    width: 100%;
+}
+.contact-box label{
+    position: relative;
+    top: 5px;
+}
+.contact-form input{
+    width: 100%;
+    font-size: 16px;
+    padding: 9px 0;
+    margin: 10px 0;
+}
+.contact-box ::placeholder{
+    position: relative;
+    left: 10px;
+}
+.contact-box-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contact-box textarea{
+    margin: 10px 0;
+
+}
+.contacts-btn{
+    all: unset;
+    margin-top: 32px;
+    border: 1px solid gray;
+    font-weight: 500;
+    padding: 7px 20px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+    color: black;
+
+}
+.contacts-btn:hover{
+    color: white;
+    background-color: gray;
+    letter-spacing: 1.2px;
+} 

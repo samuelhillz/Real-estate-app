@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c70d6c01.css",
+    "main.js": "/static/js/main.2d898121.js",
+    "static/media/theservices.webp": "/static/media/theservices.89f187b70d60984d3d78.webp",
+    "static/media/baner.jpg": "/static/media/baner.6f7d63106638b65526ed.jpg",
+    "static/media/properties.webp": "/static/media/properties.3d24e3293266eed271da.webp",
+    "static/media/condo4.jpeg": "/static/media/condo4.d1c22a7e0eac560c2e49.jpeg",
+    "static/media/condo3.jpeg": "/static/media/condo3.fd32742728d412416d65.jpeg",
+    "static/media/condo1.jpeg": "/static/media/condo1.04690383e417fe614703.jpeg",
+    "static/media/condo2.jpeg": "/static/media/condo2.911c6d0dacf676ce7a08.jpeg",
+    "static/media/wishlist_logo.png": "/static/media/wishlist_logo.1f0d7634f97cb1e918ba.png",
+    "index.html": "/index.html",
+    "main.c70d6c01.css.map": "/static/css/main.c70d6c01.css.map",
+    "main.2d898121.js.map": "/static/js/main.2d898121.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c70d6c01.css",
+    "static/js/main.2d898121.js"
+  ]
+}
